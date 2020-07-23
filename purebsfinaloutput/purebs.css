@@ -1,0 +1,83 @@
+
+header{
+    margin: 0px;
+    padding: 0px;    
+    width: 100%;
+}
+    
+
+#header_top{
+    height:60px ;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    color: #374957;
+}
+
+ 
+#navi{
+    height: inherit;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+}
+  
+#header-bottom{
+    height: 91%;
+    background-image: linear-gradient(to right bottom,rgba(47, 93, 145,0.4) 40%, rgba(32, 38, 124,1) 60%);
+} 
+#header-bottom>h1{
+    font-size: 80px;
+}
+
+.skills{
+    margin: 0px;
+    
+    padding: 0px;
+    height: 93%;
+    background-color: rgba(238, 238, 238,0.5);
+}
+
+.projects{
+    margin: 0px;
+    padding: 0px;
+    height: 85%;
+   
+}
+
+.skills-top .project-top{
+    
+    height: 30%;     
+}
+
+#card-design{
+    background-color: rgba(238, 238, 238,0.5);
+}
+
+.footers{
+    position: absolute;
+    width: 100%;
+    margin: 0px; 
+    background: rgba(58, 50, 50, 0.767); 
+    color: wheat;
+}
+.fa-facebook {
+    background: #3B5998;
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+} 
+
+.fa-twitter+h6{
+    margin: 10px;
+}
